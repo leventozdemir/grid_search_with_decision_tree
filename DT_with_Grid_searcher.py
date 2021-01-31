@@ -7,7 +7,7 @@ import timeit
 from sklearn.metrics import accuracy_score
 
 #read an csv file and return Training sampels as type dictionary
-train = '/Volumes/macosx - Data/Users/leventozdemir/Documents/DATA_SETS/Decision_tree/avazu-ctr-prediction/train.csv'
+train = 'train.csv'
 def read_ad_click(train, n, offset = 0):
     X_dict, Y = [], []
     with open(train, 'r')as csvfile:
