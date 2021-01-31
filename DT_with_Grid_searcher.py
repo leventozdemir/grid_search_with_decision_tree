@@ -6,7 +6,7 @@ from sklearn.metrics import roc_auc_score
 import timeit
 from sklearn.metrics import accuracy_score
 
-#read an csv file and return Training sampels as type dictionary
+#read a csv file and return Training sampels as type dictionary
 train = 'train.csv'
 def read_ad_click(train, n, offset = 0):
     X_dict, Y = [], []
